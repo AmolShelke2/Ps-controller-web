@@ -29,3 +29,25 @@
   width: 25px;
   cursor: pointer;
 }
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: #ff5ea2;
+}
